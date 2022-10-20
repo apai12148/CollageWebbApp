@@ -1,0 +1,48 @@
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(238, 238, 177);
+    background-color: rgb(181, 247, 225);
+    line-height: 3;
+}
+
+body{
+    background-color: rgb(159, 221, 238);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: rgb(214, 181, 245);
+}
+
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+
+img{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px rgba(2,2,2,0.2);
+}
+
+img:hover{
+    border-radius: 140px;
+}
+
+.column{
+    display: inline;
+    padding: 10px;
+}
